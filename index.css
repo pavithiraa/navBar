@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding:0px;
+    background-color: grey;
+}
+li,a,button{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-size: 15px;
+    color:whitesmoke;
+    text-decoration: none;
+}
+header{
+    display:flex;
+    /* justify-content: space-around; */
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 10%;
+}
+.navBar{
+    list-style: none;
+}
+.navBar li{
+    display: inline-block;
+    padding:0 30px;
+}
+.navBar li,a{
+    transition: all 0.3s ease 0s  ;
+}
+.navBar li a:hover{
+    color:turquoise;
+}
+button{
+    margin-right: 20px;
+    padding:9px 25px;
+    background-color: teal;
+    border :none;
+    border-radius:50px;
+    cursor:pointer;
+    transition: all 0.3s ease 0s;
+}
+button:hover{
+    background-color: rgb(170, 231, 225);
+}
